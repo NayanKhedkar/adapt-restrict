@@ -1,0 +1,19 @@
+{
+	"name": "adapt-restrict",
+	"version": "1.0.6",
+	"framework": ">=2.0.4",
+	"displayName": "restrict",
+	"extension": "restrict",
+	"homepage": "",
+	"description": "An extension to restrict copy pasting of website(html content)",
+	"main": "/js/adapt-restrict.js",
+	"authors": [
+        "Nayan Khedkar <nayan.khedkar@exultcorp.com>"
+    ],
+	"keywords": [
+		"adapt-plugin",
+		"adapt-extension"
+	],
+	"license": "GPL-3.0",
+	"targetAttribute": "_restrict"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "properties": {
+        "course": {
+          "type": "object",
+          "properties": {
+            "_restrict": {
+              "type": "object",
+              "legend": "Restrict copy pesting",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required":true,
+                  "default": true,
+                  "title": "Enabled?",
+                  "inputType": "Checkbox",
+                  "validators": [],
+                  "help": "Set to true on the course to restrict copy pasting of website(html content)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
